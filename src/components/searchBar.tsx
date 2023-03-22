@@ -1,3 +1,4 @@
+import '../App.css'
 import React, { Component } from "react";
 
 type SearchBarProps={
@@ -29,7 +30,8 @@ export default class SearchBar extends Component<SearchBarProps,SearchBarState> 
     render(): React.ReactNode{
         return(
         <div>
-            <input type="text" className="search_bar"
+            <input type="text" 
+            className="search_bar"
             onChange={this.updateSearchValue}
             value={this.state.searchValue}/>
         </div>
