@@ -17,7 +17,7 @@ function App() {
           <Link to='/cards'> Cards</Link>
           <Link to='/about_us'> About Us</Link>
        </div>
-       <SearchBar/>
+      <SearchBar/>
     </div>
     <Routes>
       <Route path='/cards' element={<CardsPage/>}/>
