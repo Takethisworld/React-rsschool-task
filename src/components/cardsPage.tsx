@@ -1,5 +1,10 @@
 import React from "react";
 
+type CardsArrayProps = {
+
+}
+
+
 export default function CardsPage(){
     return(
         <div>
