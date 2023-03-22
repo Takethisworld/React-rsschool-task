@@ -1,5 +1,6 @@
 import '../App.css'
 import React, { Component } from "react";
+import search from './assets/loupe.png'
 
 type SearchBarProps={
 }
@@ -29,7 +30,8 @@ export default class SearchBar extends Component<SearchBarProps,SearchBarState> 
     }
     render(): React.ReactNode{
         return(
-        <div>
+        <div className='searchbar_cont'>
+            <img src={search} alt='search' className='search_img'/>
             <input type="text" 
             className="search_bar"
             onChange={this.updateSearchValue}
